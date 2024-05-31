@@ -1,33 +1,33 @@
 package animais;
 
 public class Gato implements Animal {
-    private String arranhar;
-    private String ronronar;
+    private String pular;
+    private String soninho;
 
     public Gato(){
         
     }
     @Override
     public void emitirSom(){
-        System.out.println("meeoooow, meooooow");
+        System.out.println("miauuu, meoww");
     }
 
     @Override
     public void comer(){
-        System.out.println("O gatinho quase destroi a casa exigindo sua comidinha, então sem opção, seu dono serve o pobre gatinho aproveita sua deliciosa ração");
+        System.out.println("hmmm que delicia, o gatinho está comendo um peixe fresquinho hmmm");
     }
 
-    public void setRonronar(String ronronar){
-        this.ronronar = ronronar;
+    public void setSoninho(String soninho){
+        this.soninho = soninho;
     }
-    public void getRonronar(){
-        System.out.println("ownn que fofura, o gatinho esta ronronando!!");
+    public void getSoninho(){
+        System.out.println("faça silencio!!!!! o gato está dormindo!");
     }
 
-    public void setArranhar(String arranhar){
-        this.arranhar = arranhar;
+    public void setPular(String pular){
+        this.pular = pular;
     }
-    public void getArranhar(){
-        System.out.println("INHEEEEU!!! ohh não!!! as cortinas foram rasgadas pelo gato!!! ");
+    public void getPular(){
+        System.out.println("uooou! o gato pula em todos os cantos da casa! ");
     }
 }

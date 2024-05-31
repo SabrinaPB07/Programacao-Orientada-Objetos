@@ -1,24 +1,24 @@
 import java.util.ArrayList;
 
 import animais.Animal;
-import animais.Cabra;
+import animais.Vaca;
 import animais.Gato;
 public class App {
     public static void main(String[] args) throws Exception {
         ArrayList<Gato> gatos = new ArrayList<>();
-        ArrayList<Cabra> cabras = new ArrayList<>();
+        ArrayList<Vaca> vacas = new ArrayList<>();
 
         gatos.add(new Gato());
         gatos.get(0).comer();
         gatos.get(0).emitirSom();
-        gatos.get(0).getArranhar();
-        gatos.get(0).getRonronar();
+        gatos.get(0).getPular();
+        gatos.get(0).getSoninho();
 
-        cabras.add(new Cabra());
-        cabras.get(0).comer();
-        cabras.get(0).emitirSom();
-        cabras.get(0).getLamber();
-        cabras.get(0).getCabecada();
+        vacas.add(new Vaca());
+        vacas.get(0).comer();
+        vacas.get(0).emitirSom();
+        vacas.get(0).getCarinho();
+        vacas.get(0).getDescerEscada();
         
     }
 }
