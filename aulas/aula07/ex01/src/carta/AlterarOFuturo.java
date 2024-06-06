@@ -7,14 +7,14 @@ public class AlterarOFuturo extends Carta {
 
     @Override
     public void exibirInformacoes(){
-        SYstem.out.println(String.format(
+        System.out.println(String.format(
             """
             Nome: %s,
             Revelada: %s
 
             Ação: altera as proximas 3 cartas.
-            """;
-        ))
+            """
+        ));
     }
 
     public void exibirInformacoes(boolean chamarMae){
@@ -27,6 +27,6 @@ public class AlterarOFuturo extends Carta {
     }
     
     public void realizarAcao(){
-        System.out.println("fulano altera as proximas 3 cartas ")
+        System.out.println("fulano altera as proximas 3 cartas ");
     }
 }
